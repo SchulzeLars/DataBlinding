@@ -1,0 +1,24 @@
+---
+title: "TODO: give your report a title"
+author: "TODO: your name"
+date: today
+format:
+  html:
+    toc: true
+    embed-resources: true
+editor_options:
+  chunk_output_type: console
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r import-dwmt}
+#| cache: false
+#| include: false
+knitr::read_chunk('test_quarto.R')
+```
+
+```{r BASIC-PLOT}
+```
+
